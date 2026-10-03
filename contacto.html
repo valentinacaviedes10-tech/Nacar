@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contacto | Nácar Nail Studio</title>
+<meta name="description" content="Nácar Nail Studio: manicure, pedicure, uñas en gel y acrílicas con diseños personalizados.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&family=Fraunces:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script>try{if(localStorage.getItem('theme')==='dark')document.documentElement.classList.add('dark-mode')}catch(e){}</script>
+</head>
+<body>
+<header class="site-header"><div class="container nav-wrap">
+<a class="logo" href="index.html">Nácar<span>.</span></a>
+<button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+<nav id="nav" class="nav" aria-label="Principal"><ul><li><a href="index.html">Inicio</a></li><li><a href="nosotros.html">Nosotras</a></li><li><a href="galeria.html">Galería</a></li><li><a href="servicios.html">Servicios</a></li><li><a href="contacto.html" class="active" aria-current="page">Contacto</a></li></ul><button class="theme-toggle" type="button" aria-label="Cambiar tema">🌙</button></nav>
+</div></header>
+<main>
+<section class="page-hero"><div class="container"><h1>Reserva tu cita</h1><p class="lead">Cuéntanos qué servicio quieres y te confirmamos horario en menos de 24 horas.</p></div></section>
+<section style="padding-top:2rem"><div class="container contact-grid">
+<article class="card"><form id="contact-form" novalidate>
+<div class="field"><label for="nombre">Nombre</label><input id="nombre" name="nombre" type="text" autocomplete="name"><span class="error" role="alert"></span></div>
+<div class="field"><label for="email">Correo electrónico</label><input id="email" name="email" type="email" autocomplete="email"><span class="error" role="alert"></span></div>
+<div class="field"><label for="asunto">Servicio que te interesa</label><input id="asunto" name="asunto" type="text" placeholder="Ej. Manicure en gel"><span class="error" role="alert"></span></div>
+<div class="field"><label for="mensaje">Mensaje</label><textarea id="mensaje" name="mensaje" rows="5" placeholder="Día y hora preferidos, o cuéntanos tu diseño ideal"></textarea><span class="error" role="alert"></span></div>
+<button class="btn" type="submit">Enviar solicitud</button><p id="success" class="success" role="status"></p></form></article>
+<aside><h2>Ven a vernos</h2><ul class="info-list">
+<li><strong>Dirección</strong><span>Cra3#4-25 Capoalegre-Huila</span></li>
+<li><strong>WhatsApp</strong><span>+57 3182228126</span></li>
+<li><strong>Lunes a viernes</strong><span>9:00 a 19:00</span></li>
+<li><strong>Sábados</strong><span>9:00 a 17:00</span></li></ul>
+</main>
+<footer><div class="container">
+<a class="logo" href="index.html">Nácar<span>.</span></a>
+<ul><li><a href="index.html">Inicio</a></li><li><a href="nosotros.html">Nosotras</a></li><li><a href="galeria.html">Galería</a></li><li><a href="servicios.html">Servicios</a></li><li><a href="contacto.html">Contacto</a></li></ul>
+<p>&copy; 2026 Nácar Nail Studio. Reserva tu cita y consiéntete.</p>
+</div></footer>
+<script src="script.js"></script>
+</body>
+</html>
